@@ -4,8 +4,6 @@ Event-driven order processing on Java 21 and Spring Boot 3.3: five services run 
 Kafka saga (hold stock, capture payment, confirm, or compensate) over DynamoDB, with a
 transactional outbox, idempotent consumers and a Lambda read path, deployable with Terraform or SAM.
 
-[![CI](https://github.com/SlateGitOrg/cloud-order-processing-system/actions/workflows/ci.yml/badge.svg)](https://github.com/SlateGitOrg/cloud-order-processing-system/actions/workflows/ci.yml)
-
 ## Why
 
 An order touches three owners of state: the order itself, the stock it holds and the payment that
@@ -306,7 +304,7 @@ anticipate, and that belongs in a DLQ with its payload.
 ### Build and run the unit tests (no Docker, no network services)
 
 ```bash
-git clone https://github.com/SlateGitOrg/cloud-order-processing-system.git
+git clone https://github.com/KPatelce/cloud-order-processing-system.git
 cd cloud-order-processing-system
 mvn -B verify -DskipITs
 ```
@@ -822,9 +820,6 @@ MIT - see [LICENSE](LICENSE).
 
 ## Maintainer
 
-Dev Bhatt maintains this project, with a focus on reliable data workflows, automation and controls.
-He has over 6 years of professional experience in data analytics and automation, including building
-pipelines and reconciliation processes at scale.
+Maintained by **Kashish Patel**, Senior Software Engineer and Technical Lead.
 
-- LinkedIn: [linkedin.com/in/dev-bhatt27](https://linkedin.com/in/dev-bhatt27)
-- Email: [devbhattwork27@gmail.com](mailto:devbhattwork27@gmail.com)
+For project inquiries, contact [kashish.patel@belvionus.com](mailto:kashish.patel@belvionus.com).

@@ -96,12 +96,3 @@ terraform destroy -var-file=dev.tfvars
 
 `deletion_protection_enabled` is on for the business tables in `prod`, so a production destroy
 fails until it is explicitly turned off - which is the intent.
-
-## Maintainer
-
-Maintained by Dev Bhatt, a data analyst with over six years of experience building automated
-pipelines, controls and dashboards. His work focuses on risk indicators, reconciliation and
-automation at scale.
-
-- Email: [devbhattwork27@gmail.com](mailto:devbhattwork27@gmail.com)
-- LinkedIn: [linkedin.com/in/dev-bhatt27](https://linkedin.com/in/dev-bhatt27)
